@@ -1,0 +1,138 @@
+:root {
+    --color-primary: #ff1717;
+    --color-secondary: #ff8f25;
+}
+
+body {
+    background: #000;
+    margin: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background transition */
+    transition: background 1s ease-in-out, opacity 1s ease-in-out;
+    opacity: 0;
+}
+
+.background.img-0 {
+    background-image: url(/assets/slideshow/0.png)
+}
+.background.img-1 {
+    background-image: url(/assets/slideshow/1.png)
+}
+.background.img-2 {
+    background-image: url(/assets/slideshow/2.png)
+}
+.background.img-3 {
+    background-image: url(/assets/slideshow/3.png)
+}
+.background.img-4 {
+    background-image: url(/assets/slideshow/4.png)
+}
+.background.img-5 {
+    background-image: url(/assets/slideshow/5.png)
+}
+.background.img-6 {
+    background-image: url(/assets/slideshow/6.png)
+}
+.background.img-7 {
+    background-image: url(/assets/slideshow/7.png)
+}
+.background.img-8 {
+    background-image: url(/assets/slideshow/8.png)
+}
+.background.img-9 {
+    background-image: url(/assets/slideshow/9.png)
+}
+.background.img-10 {
+    background-image: url(/assets/slideshow/10.png)
+}
+.background.img-11 {
+    background-image: url(/assets/slideshow/11.png)
+}
+.background.img-12 {
+    background-image: url(/assets/slideshow/12.png)
+}
+.background.img-13 {
+    background-image: url(/assets/slideshow/13.png)
+}
+.background.img-14 {
+    background-image: url(/assets/slideshow/14.png)
+}
+
+/* background is a container */
+.background {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.title > img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.button-list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 10px;
+    transition: none;
+}
+
+/* Button Primary */
+.btn-primary {
+    background: #cc1F20;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border: 4px solid #961F20;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.btn-primary > a {
+    color: white;
+    text-decoration: none;
+}
+.btn-primary:hover {
+    background: #961F20;
+}
+
+.btn-discord {
+    background: #5865F2;
+    border: 4px solid #404EED;
+}
+.btn-discord:hover {
+    background: #404EED;
+}
+
+.btn-twitter {
+    background: #1D9BF0;
+    border: 4px solid #1DA1F2;
+}
+.btn-twitter:hover {
+    background: #1DA1F2;
+}
+
+.ContentCopy-Icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    fill: currentColor
+}
