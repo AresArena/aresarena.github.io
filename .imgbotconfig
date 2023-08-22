@@ -1,0 +1,9 @@
+{
+    "schedule": "daily",
+    "ignoredFiles": [
+        "img/profile.jpg" 
+    ],
+    "aggressiveCompression": "true",
+    "compressWiki": "false",
+    "minKBReduced": 0
+}
